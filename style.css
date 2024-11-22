@@ -1,0 +1,52 @@
+body {
+    background: beige;
+}
+h1 {
+    font-size: 50px;
+    color: blueviolet;
+    margin: 10px;
+    padding: 5px;
+}
+h2 {
+    font-size: 25px;
+    color:purple;
+    margin: 10px;
+    padding: 5px;
+}
+p {
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    border-style: dotted;
+    border-width: 3px;
+}
+li {
+    color: rgb(103, 103, 255);
+    padding: 2px;
+}
+a {
+    color: blue;
+}
+.content {
+    display: flex;
+    margin: 3%;
+}
+.content-left {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    width: 65%;
+    padding: 18px;
+    background: rgb(199, 199, 199);
+    border-radius: 32px;
+}
+.content-right {
+    margin: 2%;
+    padding: 20px;
+    background: rgb(199, 199, 199);
+    border-radius: 32px;
+}
+.photo {
+    height: 500px;
+    width: auto;
+}
